@@ -1,0 +1,16 @@
+{
+  "name": "mp-fe-fwk-project",
+  "version": "1.0.0",
+  "description": "A project to learn how to write a frontend framework from scratch.",
+  "main": "index.js",
+  "scripts": {
+      "serve:examples": "npx http-server . -o ./examples/"
+  },
+  "keywords": [],
+  "author": "",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+      "packages/runtime"
+  ]
+}
